@@ -31,7 +31,7 @@ public class dockerTesting
 
             chromeOptions = new ChromeOptions();
             URL url = new URL("http://localhost:4444/wd/hub");
-            RemoteWebDriver driver = new RemoteWebDriver(url, chromeOptions);
+            driver = new RemoteWebDriver(url, chromeOptions);
         }
         catch (Exception e){
             System. out.println("An error occurred: " + e.getMessage());
